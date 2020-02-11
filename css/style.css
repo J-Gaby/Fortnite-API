@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Burbank";
+    src: url(../BurbankBigCondensed-Bold.otf);
+}
+
+#body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    background-image: url(../images/fond3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titre{
+    font-size: 50px;
+    color: #efe802;
+    background-color: black;
+    border: 2px solid #ffd700;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Burbank";
+}
+
+#search{
+    padding: 5px;
+    width: 250px;
+    height: auto;
+    background-color: #efe802;
+    border: 2px solid black;
+    font-family: "Burbank";
+    font-size: 25px;
+}
+
+#btsearch{
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    background-color: #efe802;
+    border: 2px solid black;
+    font-family: "Burbank";
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+#cherche{
+    margin-bottom: 20px;
+}
+
+#stats{
+    color: #efe802;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #efe802;
+    font-family: "Burbank";
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#stats p{
+    padding: 10px;
+}
+
+#stats h3{
+    padding: 10px;
+}
+
+#infocenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#infoalign{
+    display: flex;
+    flex-direction: row;
+}
+
+#infomarge{
+    padding: 10px;
+}
